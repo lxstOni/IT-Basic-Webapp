@@ -34,3 +34,22 @@ nav ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 35, 122, 0.7);
 }
+.headlines {
+    text-align: center;
+}
+
+#images {
+    height: 800px;
+    position: relative;
+      
+}
+
+#images img {
+    width: 125px;
+    height: 100px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
