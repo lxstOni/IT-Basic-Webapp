@@ -38,18 +38,24 @@ nav ul li a:hover {
     text-align: center;
 }
 
-#images {
-    height: 800px;
-    position: relative;
-      
+.tasks {
+  text-align: center;
+  padding-top: 20px;
 }
 
-#images img {
-    width: 125px;
-    height: 100px;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+
+.image {
+  margin-top: 75px;
+  height: 100px;
+  position: relative;
 }
 
+.image img {
+  width: 125px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+}
