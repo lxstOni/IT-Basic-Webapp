@@ -43,20 +43,6 @@ nav ul li a:hover {
   padding-top: 20px;
 }
 
-#image-1 {
-  margin-top: 75px;
-  height: 100px;
-  position: relative;
-}
-
-#image-1 img {
-    width: 125px;
-    height: 100px;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 .image {
   margin-top: 75px;
