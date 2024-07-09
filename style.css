@@ -1,3 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%; /* Damit die Höhe der Seite 100% des Viewports beträgt */
+  display: flex;
+  flex-direction: column; /* Flexbox, um den Footer am unteren Ende zu positionieren */
+}
+
+.main-content {
+  flex: 1; /* Der Hauptinhalt nimmt den verfügbaren Platz ein */
+
+}
 .headlines {
     text-align: center;
 }
@@ -43,16 +56,79 @@ nav ul li a:hover {
 
 
 #explanation {
-    text-align: center;
-    margin-top: 120px;
-    font-size: 18px;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 18px;
 }
 
 #explanation hr {
-    width: 200px;
-    border: 1px solid red;
+  width: 200px;
+  border: 1px solid red;
 }
 
 #explanation p {
     margin-top: 50px;
+}
+
+#arrow {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+#testing-procedure {
+  margin-top: 50vh;
+  text-align: center;
+}
+
+table {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.about-us{
+  background: linear-gradient(white,#caf0f8 25%,#00b4d8);
+}
+
+.about-us p {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+}
+
+.about-us hr {
+  width: 200px;
+  border: 2px solid #ffd60a;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.image {
+  margin-top: 100px;
+  height: 100px;
+  position: relative;
+  background-color: transparent;
+}
+
+.image img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100px;
+  margin-top: 100px;
+}
+
+footer {
+  background: linear-gradient(#00b4d8,#009eca);
+  min-height: 50px;
 }
