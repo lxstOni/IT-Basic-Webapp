@@ -34,7 +34,26 @@ nav ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 35, 122, 0.7);
 }
-
 .headlines {
     text-align: center;
+}
+
+.tasks {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.image {
+  margin-top: 75px;
+  height: 100px;
+  position: relative;
+}
+
+.image img {
+  width: 125px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
 }
