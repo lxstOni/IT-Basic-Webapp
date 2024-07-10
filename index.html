@@ -9,22 +9,50 @@
     <title>BVB Kaban</title>
 </head>
 <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="beginner.html">Anfänger</a>
-        </li>
-        <li>
-          <a href="medium.html">Fortgeschritten</a>
-        </li>
-        <li>
-          <a href="immediate.html">Profi</a>
-        </li>
-      </ul>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/800x500" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x500" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x500" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
     <div id="explanation">
       <h1 class="headlines">Was lernt ihr auf dieser Seite?</h1>
       <hr>
@@ -51,15 +79,17 @@
       <table>
         <thead>
             <tr>
-                <th>Phase 1</th>
-                <th>Phase 2</th>
+                <th>Ankommensphase</th>
+                <th>Kompetenzanalyse</th>
+                <th>Berufliche Orientierung</th>
                 <th>Phase 3</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Daten 1</td>
-                <td>Daten 2</td>
+                <td>Dauer: ca. 2 Wochen</td>
+                <td>Dauer ca. 6 Wochen</td>
+                <td>Rest der BVB</td>
                 <td>Daten 3</td>
             </tr>
             <!-- Weitere Zeilen je nach Bedarf -->
