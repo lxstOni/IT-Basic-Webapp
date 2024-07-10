@@ -10,16 +10,32 @@ body {
   flex: 1;
 
 }
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar li a {
+  background-color: #333;
+  color: #fff;
+}
+
+.carousel-inner {
+  height: 500px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
 .headlines {
     text-align: center;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-
-
-
-
 
 
 #explanation {
@@ -108,17 +124,3 @@ footer {
   min-height: 50px;
 }
 
-.navbar {
-  background-color: #333;
-  color: #fff;
-}
-
-.carousel-inner {
-  height: 500px;
-}
-
-.carousel-item img {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-}
