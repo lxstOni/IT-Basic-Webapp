@@ -4,36 +4,31 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(white,#caf0f8 25%,#00b4d8);
 }
 
 .main-content {
   flex: 1;
 
 }
-
 .navbar {
   background-color: #333;
   color: #fff;
 }
-
 .navbar li a {
   background-color: #333;
   color: #fff;
 }
-
-.carousel-inner {
-  height: 500px;
+#arrow {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
 }
-
-.carousel-item img {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-}
-
 .headlines {
-    text-align: center;
+  text-align: center;
 }
+
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -45,42 +40,38 @@ body {
 }
 
 #explanation hr {
-  width: 200px;
-  border: 1px solid red;
+  text-align: center;
+  border: 2px solid red;
+  width: 20%;
+  margin: 20px auto;
+  opacity: 100%;
 }
 
 #explanation p {
     margin-top: 50px;
 }
 
-#arrow {
-  font-size: 60px;
-  text-align: center;
-  margin-top: 50px;
-  text-decoration: none;
-}
+
 
 .about-us{
-  background: linear-gradient(white,#caf0f8 25%,#00b4d8);
-  padding-top: 150px;
+  text-align: center;
+  margin-top: 120px;
+  font-size: 18px;
 }
 
 .about-us p {
-  margin-left: 200px;
-  margin-right: 200px;
-  text-align: center;
+  margin-top: 50px;
 }
 
 .about-us hr {
   width: 200px;
   border: 2px solid #ffd60a;
-  margin-top: 150px;
-  margin-bottom: 50px;
+  margin: 150px auto;
+  opacity: 100%;
 }
 
 #testing-procedure {
   text-align: center;
-  background-color: #00b4d8;
   padding-top: 300px;
   padding-bottom: 300px;
   
@@ -120,7 +111,6 @@ th, td {
 }
 
 footer {
-  background: linear-gradient(#00b4d8,#009eca);
   min-height: 50px;
 }
 
