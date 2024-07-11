@@ -77,6 +77,24 @@ body {
   
 }
 
+.button-up {
+  bottom: 10px;
+  float: right;
+  right: 18.5%;
+  left: 77.25%;
+  max-width: 30px;
+  width: 100%;
+  font-size: 12px;
+  border-color: transparent;
+  font-size: 60px;
+  background: transparent;
+  text-decoration: none;
+  padding: .5px;
+  border-radius: 4px;
+
+}
+
+
 table {
   width: 50%;
   margin: 0 auto;
