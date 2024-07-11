@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
   margin: 0;
   padding: 0;
@@ -30,9 +32,6 @@ body {
 }
 
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-
-
 #explanation {
   text-align: center;
   margin-top: 120px;
@@ -53,21 +52,23 @@ body {
 }
 
 
-
 .about-us{
   text-align: center;
   margin-top: 120px;
-  font-size: 18px;
+  font-size: 22px;
+
+  
 }
 
 .about-us p {
   margin-top: 50px;
+  text-align: center;
 }
 
 .about-us hr {
   width: 200px;
   border: 2px solid #ffd60a;
-  margin: 150px auto;
+  margin: 150px auto auto auto;
   opacity: 100%;
 }
 
@@ -78,22 +79,6 @@ body {
   
 }
 
-.button-up {
-  bottom: 10px;
-  float: right;
-  right: 18.5%;
-  left: 77.25%;
-  max-width: 30px;
-  width: 100%;
-  font-size: 12px;
-  border-color: transparent;
-  font-size: 60px;
-  background: transparent;
-  text-decoration: none;
-  padding: .5px;
-  border-radius: 4px;
-
-}
 
 
 table {
@@ -129,7 +114,32 @@ th, td {
   margin-top: 100px;
 }
 
+.button-up {
+  bottom: 10px;
+  right: 18.5%;
+  left: 77.25%;
+  max-width: 30px;
+  width: 100%;
+  font-size: 12px;
+  border-color: transparent;
+  font-size: 60px;
+  background: transparent;
+  text-decoration: none;
+  padding: .5px;
+  border-radius: 4px;
+
+}
+
 footer {
   min-height: 50px;
 }
 
+@media only screen and (max-width: 600px) {
+  .about-us p {
+    margin-top: 50px;
+    text-align: center;
+  
+  }
+
+}
+  
