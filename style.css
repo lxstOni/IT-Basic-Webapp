@@ -31,7 +31,6 @@ body {
   text-align: center;
 }
 
-
 #explanation {
   text-align: center;
   margin-top: 120px;
@@ -51,8 +50,7 @@ body {
     margin-top: 50px;
 }
 
-
-.about-us{
+#about-us{
   text-align: center;
   margin-top: 120px;
   font-size: 22px;
@@ -60,12 +58,12 @@ body {
   
 }
 
-.about-us p {
+#about-us p {
   margin-top: 50px;
   text-align: center;
 }
 
-.about-us hr {
+#about-us hr {
   width: 200px;
   border: 2px solid #ffd60a;
   margin: 150px auto auto auto;
@@ -79,8 +77,6 @@ body {
   
 }
 
-
-
 table {
   width: 50%;
   margin: 0 auto;
@@ -93,7 +89,6 @@ th, td {
   padding: 8px;
   color: white;
   font-weight: bold ;
-
 }
 
 .image {

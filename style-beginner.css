@@ -1,7 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
+.main-content {
+  flex: 1;
+
+}
 .navbar {
+  background-color: #333;
+  color: #fff;
+}
+.navbar li a {
   background-color: #333;
   color: #fff;
 }
